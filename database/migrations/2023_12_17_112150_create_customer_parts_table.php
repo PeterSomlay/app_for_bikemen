@@ -16,6 +16,10 @@ class CreateCustomerPartsTable extends Migration
         Schema::create('customer_parts', function (Blueprint $table) {
             $table->id('customer_parts_id');
             $table->unsignedBigInteger('customer_id');
+            $table->unsignedBigInteger('bicycle_id');
+            $table->unsignedBigInteger('discbrake_id');
+            $table->unsignedBigInteger('e_motor_id');
+            $table->unsignedBigInteger('e_shifter_id');
             $table->unsignedBigInteger('frame_id');
             $table->unsignedBigInteger('fork_id');
             $table->unsignedBigInteger('rear_shock_id');
