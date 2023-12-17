@@ -25,6 +25,10 @@ class CreateWorksheetTable extends Migration
             $table->text('errors_description');
             $table->unsignedBigInteger('repair_id');
             $table->unsignedBigInteger('expert_report_id');
+            $table->unsignedBigInteger('bicycle_id');
+            $table->unsignedBigInteger('discbrake_id');
+            $table->unsignedBigInteger('e_motor_id');
+            $table->unsignedBigInteger('e_shifter_id');
             $table->unsignedBigInteger('fork_id');
             $table->unsignedBigInteger('rear_shock_id');
             $table->unsignedBigInteger('frame_id');
