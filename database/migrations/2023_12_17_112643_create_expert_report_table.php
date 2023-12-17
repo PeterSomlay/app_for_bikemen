@@ -19,8 +19,8 @@ class CreateExpertReportTable extends Migration
             $table->unsignedBigInteger('customer_id');
             $table->unsignedBigInteger('mechanic_id');
             $table->string('expert_report_damage');
-            $table->biginteger('expert_report_fixed_price');
-            $table->biginteger('expert_report_fixed_parts_price');
+            $table->bigInteger('expert_report_fixed_price');
+            $table->bigInteger('expert_report_fixed_parts_price');
             $table->text('expert_report_comment');
             $table->timestamps();
         });

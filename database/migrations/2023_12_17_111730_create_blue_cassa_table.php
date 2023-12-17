@@ -17,9 +17,9 @@ class CreateBlueCassaTable extends Migration
             $table->id('blue_cassa_id');
             $table->date('blue_cassa_date');
             $table->string('blue_cassa_comment');
-            $table->biginteger('blue_cassa_price');
+            $table->bigInteger('blue_cassa_price');
             $table->string('blue_cassa_exp_rev');
-            $table->biginteger('blue_cassa_in');
+            $table->bigInteger('blue_cassa_in');
             $table->timestamps();
         });
     }

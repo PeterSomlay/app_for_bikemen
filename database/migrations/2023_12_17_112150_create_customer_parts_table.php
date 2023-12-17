@@ -20,7 +20,7 @@ class CreateCustomerPartsTable extends Migration
             $table->unsignedBigInteger('fork_id');
             $table->unsignedBigInteger('rear_shock_id');
             $table->unsignedBigInteger('wheel_id');
-            $table->unsignedBigInteger('e_report_id');
+            $table->unsignedBigInteger('expert_report_id');
             $table->timestamps();
         });
     }

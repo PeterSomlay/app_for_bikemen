@@ -16,7 +16,7 @@ class CreateWorkTable extends Migration
         Schema::create('work', function (Blueprint $table) {
             $table->id('work_id');
             $table->string('work_name');
-            $table->biginteger('work_price');
+            $table->bigInteger('work_price');
             $table->string('worksheet_number');
             $table->integer('status_w');
             $table->timestamps();

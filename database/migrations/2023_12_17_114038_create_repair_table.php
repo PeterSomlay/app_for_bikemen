@@ -24,10 +24,10 @@ class CreateRepairTable extends Migration
             $table->string('work_status');
             $table->string('call_status');
             $table->date('finish_date');
-            $table->biginteger('all_parts');
-            $table->biginteger('all_work');
-            $table->biginteger('all_price');
-            $table->longtext('repair_document');
+            $table->bigInteger('all_parts');
+            $table->bigInteger('all_work');
+            $table->bigInteger('all_price');
+            $table->longText('repair_document');
             $table->timestamps();
         });
     }

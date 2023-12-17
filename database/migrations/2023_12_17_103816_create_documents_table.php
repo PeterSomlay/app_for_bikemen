@@ -19,7 +19,7 @@ class CreateDocumentsTable extends Migration
             $table->string('doc_worksheet_number');
             $table->string('doc_username');
             $table->string('doc_parts');
-            $table->longtext('doc_document');
+            $table->longText('doc_document');
             $table->timestamps();
         });
     }

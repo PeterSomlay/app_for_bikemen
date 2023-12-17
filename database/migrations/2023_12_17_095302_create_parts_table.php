@@ -16,9 +16,9 @@ class CreatePartsTable extends Migration
         Schema::create('parts', function (Blueprint $table) {
             $table->id('parts_id');
             $table->string('parts_name');
-            $table->biginteger('parts_price');
-            $table->biginteger('parts_piece');
-            $table->biginteger('parts_price_all');
+            $table->bigInteger('parts_price');
+            $table->bigInteger('parts_piece');
+            $table->bigInteger('parts_price_all');
             $table->string('worksheet_number');
             $table->integer('status_w');
             $table->timestamps();

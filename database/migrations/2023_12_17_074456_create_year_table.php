@@ -18,13 +18,13 @@ class CreateYearTable extends Migration
             $table->integer('year');
             $table->date('year_date');
             $table->string('year_day');
-            $table->biginteger('year_all');
-            $table->biginteger('year_card');
-            $table->biginteger('year_clear_cash');
-            $table->biginteger('year_other');
-            $table->biginteger('year_workprice');
-            $table->biginteger('year_workparts');
-            $table->biginteger('year_parts');
+            $table->bigInteger('year_all');
+            $table->bigInteger('year_card');
+            $table->bigInteger('year_clear_cash');
+            $table->bigInteger('year_other');
+            $table->bigInteger('year_workprice');
+            $table->bigInteger('year_workparts');
+            $table->bigInteger('year_parts');
             $table->timestamps();
         });
     }

@@ -15,21 +15,21 @@ class CreateLastYearsTable extends Migration
     {
         Schema::create('last_years', function (Blueprint $table) {
             $table->id('last_year_id');
-            $table->biginteger('year');
-            $table->biginteger('january');
-            $table->biginteger('february');
-            $table->biginteger('march');
-            $table->biginteger('april');
-            $table->biginteger('may');
-            $table->biginteger('june');
-            $table->biginteger('july');
-            $table->biginteger('august');
-            $table->biginteger('september');
-            $table->biginteger('october');
-            $table->biginteger('november');
-            $table->biginteger('december');
-            $table->biginteger('last_year_all');
-            $table->biginteger('last_year_avarange');
+            $table->bigInteger('year');
+            $table->bigInteger('january');
+            $table->bigInteger('february');
+            $table->bigInteger('march');
+            $table->bigInteger('april');
+            $table->bigInteger('may');
+            $table->bigInteger('june');
+            $table->bigInteger('july');
+            $table->bigInteger('august');
+            $table->bigInteger('september');
+            $table->bigInteger('october');
+            $table->bigInteger('november');
+            $table->bigInteger('december');
+            $table->bigInteger('last_year_all');
+            $table->bigInteger('last_year_avarange');
             $table->timestamps();
         });
     }

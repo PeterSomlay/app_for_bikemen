@@ -17,11 +17,11 @@ class CreateTodayTable extends Migration
             $table->id('today_id');
             $table->date('today_date');
             $table->string('today_comment');
-            $table->biginteger('today_work');
-            $table->biginteger('today_parts');
-            $table->biginteger('today_parts_price');
-            $table->biginteger('today_parts_piece');
-            $table->biginteger('today_all_price');
+            $table->bigInteger('today_work');
+            $table->bigInteger('today_parts');
+            $table->bigInteger('today_parts_price');
+            $table->bigInteger('today_parts_piece');
+            $table->bigInteger('today_all_price');
             $table->string('today_card');
             $table->timestamps();
         });
